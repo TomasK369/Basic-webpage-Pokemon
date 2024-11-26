@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 10px;
+    font-family: cursive;
+    background: #f5f6f7;
+    background-color: rgba(121, 182, 8, 0.527);
+    
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    border: #2877c5 solid 20px;
+    background-color: rgb(75, 180, 212);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    font-size: large;
+    /* border: solid rgb(23, 139, 0);  */
+}
+
+.tipi-pokemona {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: solid rgb(23, 139, 0); */
+    margin: 10px;
+    width: 100%;
+}
+
+.tip {
+    /* border: solid darkblue;  */
+    margin: 10px;
+    padding-right: 50px;
+}
+
+.filtri {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 50px;
+    /* border: solid darkblue; */
+    align-items: center;
+    justify-content: center;
+}
+
+#filtriranje {
+    /* border: #2877c5 solid;     */
+    margin: 30px;
+
+}
+
+
+.slike_pokemoni { 
+    /* border: solid blueviolet; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*max-width: 1400px;*/
+    padding: 45px;
+    margin-bottom: 20px;
+}
+
+.slike_pokemoni img {
+    width: 250px;
+    height: auto;
+    /*object-fit: cover;*/
+  }
+
+img {
+    margin: 10px;
+    
+}
+
+hr {
+    border: solid rgb(179, 179, 179);
+}
+
+#trava1 {
+    /*border: #2877c5 solid;*/
+    position: fixed;
+    bottom: -50px;
+    left: -45px;
+    z-index: 3;
+    rotate: 10deg;
+    margin: 0;
+    max-width: 300px;
+}
+
+#trava2 {
+    /*border: #2877c5 solid;*/
+    position: fixed;
+    bottom: -40px;
+    right: -45px;
+    z-index: 3;
+    rotate: -15deg; 
+    margin: 0;
+    transform: scaleX(-1);
+}
+
+#morje1 {
+    /*border: #2877c5 solid;*/
+    position: fixed;
+    bottom: -40px;
+    z-index: 2;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.ime-serije {
+    background-color: rgb(237, 254, 167);
+    margin: 0;
+    border: solid slategray 5px;
+    border-radius: 50px;
+    font-size: large;
+    padding-left: 20px;
+}
+
+section {
+    border-bottom: #15964b solid 15px;
+    border-radius: 40px;
+    margin: 10px 0px;
+    width: inherit;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: solid darkblue; */
+    padding: 0 200px;
+}
+
+a:hover {
+    display: inline-block;
+    transition: transform 0.1s;
+    transform: scale(1.2);
+    transform-origin:left center;
+}
+
+#github {
+    margin: 20px;
+    padding: 20px;
+    /* border: #15964b solid; */
+}

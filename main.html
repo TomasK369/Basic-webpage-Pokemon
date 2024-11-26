@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Prikaz kart</title>
+    </head>
+    <body>
+        <header>
+            <h1>Slike pokemon TCG kart</h1>
+        </header>
+        <section id="filtriranje">
+            <div>
+             <p>Tukaj lahko izbiraš POKEMON TCG karte glede na:
+                <br> - ime pokemona
+                <br> - ime napada
+                <br> - tip pokemona (tip 1, tip 2)
+                <br> - hp
+                <b>- attack info (SPECIFIČNE BESEDE npr. "does 10 damage to benched pokemon")</b>
+             </p>
+            </div>
+            <div>
+                <div class="filtri">
+                    <label class="filter" for="ime-pokemona">Ime pokemona: </label><input id="ime-pokemona" name="ime-pokemona" type="text">
+                    <label class="filter" for="ime-napada">Ime napada: </label><input id="ime-napada" name="ime-napada" type="text">
+                    <label class="filter" for="hp">Min HP: </label><input id="hp" name="hp" type="number" min="0" max="300" step="10">
+                    <label class="filter" for="spec-besede">Določene besede: </label><input id="spec-besede" name="spec-besede" type="text">
+                </div>
+                <div class="tipi-pokemona">
+                    <div class="tip">
+                        <p>Tip 1:</p>
+                        <input id="normal" name="tip1-pokemona" type="radio"><label for="normal">normal</label>
+                        <input id="water" name="tip1-pokemona" type="radio"><label for="water">water</label>
+                        <input id="fire" name="tip1-pokemona" type="radio"><label for="fire">fire</label>
+                        <input id="grass" name="tip1-pokemona" type="radio"><label for="grass">grass</label>
+                        <input id="electric" name="tip1-pokemona" type="radio"><label for="electric">electric</label>
+                        <input id="fighting" name="tip1-pokemona" type="radio"><label for="fighting">fighting</label>
+                        <input id="psychic" name="tip1-pokemona" type="radio"><label for="psychic">psychic</label>
+                        <input id="dark" name="tip1-pokemona" type="radio"><label for="dark">dark</label>
+                        <input id="steel" name="tip1-pokemona" type="radio"><label for="steel">steel</label>
+                        <input id="dragon" name="tip1-pokemona" type="radio"><label for="dragon">dragon</label>
+                    </div>
+                    <div class="tip">
+                        <p>Tip 2:</p>
+                        <input id="normal2" name="tip2-pokemona" type="radio"><label for="normal2">normal</label>
+                        <input id="water2" name="tip2-pokemona" type="radio"><label for="water2">water</label>
+                        <input id="fire2" name="tip2-pokemona" type="radio"><label for="fire2">fire</label>
+                        <input id="grass2" name="tip2-pokemona" type="radio"><label for="grass2">grass</label>
+                        <input id="electric2" name="tip2-pokemona" type="radio"><label for="electric2">electric</label>
+                        <input id="fighting2" name="tip2-pokemona" type="radio"><label for="fighting2">fighting</label>
+                        <input id="psychic2" name="tip2-pokemona" type="radio"><label for="psychic2">psychic</label>
+                        <input id="dark2" name="tip2-pokemona" type="radio"><label for="dark2">dark</label>
+                        <input id="steel2" name="tip2-pokemona" type="radio"><label for="steel2">steel</label>
+                        <input id="drago2" name="tip2-pokemona" type="radio"><label for="dragon2">dragon</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="serije">
+            <div class="ime-serije"><h1>EX Ruby Sapphire</h1></div>
+            <div class="slike_pokemoni">  
+            <img src="slike_kart/EXRubySapphire/180px-MudkipEXRubySapphire59.jpg" alt="180px-MudkipEXRubySapphire59">
+            <img src="slike_kart/EXRubySapphire/180px-MudkipEXRubySapphire60.jpg" alt="180px-MudkipEXRubySapphire60">
+            <img src="slike_kart/EXRubySapphire/180px-TorchicEXRubySapphire74.jpg" alt="180px-TorchicEXRubySapphire74">
+            <img src="slike_kart/EXRubySapphire/180px-TorchicNintendoPromo8.jpg" alt="180px-TorchicNintendoPromo8">
+            <img src="slike_kart/EXRubySapphire/180px-TreeckoEXRubySapphire75.jpg" alt="180px-TreeckoEXRubySapphire75">
+            <img src="slike_kart/EXRubySapphire/180px-TreeckoNintendoPromo3.jpg" alt="180px-TreeckoNintendoPromo3">
+            </div>
+        </section>
+        <section class="serije">
+            <div class="ime-serije"><h1>EX Sandstorm</h1></div>
+            <div class="slike_pokemoni">  
+            <img src="slike_kart/EX Sandstorm/270px-ArcanineEXSandstorm15.jpg" alt="270px-ArcanineEXSandstorm15">
+            <img src="slike_kart/EX Sandstorm/270px-EspeonEXSandstorm16.jpg" alt="270px-EspeonEXSandstorm16">
+            <img src="slike_kart/EX Sandstorm/270px-GolduckEXSandstorm17.jpg" alt="270px-GolduckEXSandstorm17">
+            <img src="slike_kart/EX Sandstorm/270px-JolteonEXSandstorm6.jpg" alt="270px-JolteonEXSandstorm6">
+            <img src="slike_kart/EX Sandstorm/270px-LinooneEXSandstorm44.jpg" alt="270px-LinooneEXSandstorm44">
+            <img src="slike_kart/EX Sandstorm/270px-SandslashEXSandstorm21.jpg" alt="270px-SandslashEXSandstorm21">
+            <img src="slike_kart/EX Sandstorm/270px-SteelixEXSandstorm23.jpg" alt="270px-SteelixEXSandstorm23">
+            <img src="slike_kart/EX Sandstorm/270px-VaporeonEXSandstorm25.jpg" alt="270px-VaporeonEXSandstorm25">
+            <img src="slike_kart/EX Sandstorm/270px-VigorothEXSandstorm52.jpg" alt="270px-VigorothEXSandstorm52">
+            </div>
+        </section>
+        <section>
+            <img src="slike_random/grass-bgremoved.png" alt="slika trave" id="trava1">
+            <img src="slike_random/grass-bgremoved.png" alt="slika trave" id="trava2">
+            <img src="slike_random/morje.webp" alt="slika trave" id="morje1">
+        </section>
+    <footer>
+        <h3>... work in progress...</h3>
+        <h1>Made by Tomas Krampf</h1>
+        <h3 id="github">more info on <a href="https://github.com/TomasK369" target="_blank">my github page</a></h3>
+    </footer>
+    </body>
+
+</html>
